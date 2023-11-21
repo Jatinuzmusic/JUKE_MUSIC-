@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LINK_KI_DUNIYA")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/II_LINK_KI_DUNIYA_II")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/jatinzx")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/jatinzx")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
-STATS_IMG_URL = "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
-STREAM_IMG_URL = "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/0b4761961d6bf188e59c8.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/3ee9fda7e004287928dcf.jpg"
 
 
 def time_to_seconds(time):
@@ -106,11 +106,11 @@ DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
 if SUPPORT_CHANNEL:
     if not re.match("(?:http|https)://", SUPPORT_CHANNEL):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://t.me/+JNh-LK_kwHo3MmQ9"
         )
-
+vi
 if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
-            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
+            "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://https://t.me/jatinzx"
         )
